@@ -1,0 +1,25 @@
+.bg-topo{
+    background-color: #34495e;
+}
+.btn-orcamento{
+    border: 2px solid rgb(219, 217, 217);
+    background: none;
+    color:  rgb(219, 217, 217);
+    position: relative;
+    padding: 5px;
+    height: 100%;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.btn-orcamento:hover{
+    background-color:  rgb(219, 217, 217);
+    color: #34495e;
+    transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    outline: none;
+    text-decoration: none;
+}
