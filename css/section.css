@@ -1,7 +1,43 @@
-.bg-servicos{
-    background: linear-gradient(131.26deg, #312b45 30%, #ff3859 100%);
+/*Parceiros*/
+.padding-parceiros{
+    padding: 8px !important;
+}
+.shadow:hover{
+    box-shadow: 0px 0px 2px black;
+    transition: all 0.5s ease-in-out;
 }
 
+/*Sessao estasticas*/
+.icon{
+    font-size: 50px;
+}
+.icone-clock {
+    color: rgb(255, 255, 255);
+}
+.icone-book {
+    color: rgb(0, 217, 255);
+}
+.icone-users {
+    color: rgb(255, 166, 0);
+}
+.icone-star {
+    color: rgb(255, 255, 2);
+}
+
+.contador-fatos h3{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.contador-fatos h4{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    text-align: center;
+}
 /* Configuração geral */
 .underline{
     content: '';

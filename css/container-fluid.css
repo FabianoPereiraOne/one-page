@@ -1,6 +1,13 @@
 .bg-topo{
     background-color: #34495e;
 }
+.bg-servicos{
+    background: linear-gradient(131.26deg, #312b45 30%, #ff3859 100%);
+}
+.bg-parallax{
+    background: url(/imagens/bg.jpg) fixed;
+    position: relative;
+}
 .btn-orcamento{
     border: 2px solid rgb(219, 217, 217);
     background: none;
@@ -22,4 +29,11 @@
     -moz-transition: all 0.50s ease-in-out;
     outline: none;
     text-decoration: none;
+}
+.left:hover, .right:hover {
+    background-color: #ddd;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid rgb(49, 49, 49);
+    transition: all 0.5s ease-in-out;
 }
