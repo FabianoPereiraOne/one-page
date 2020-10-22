@@ -106,3 +106,10 @@
     margin-bottom: 8px;
     margin: 0 auto;
 }
+.underline-footer{
+    content: '';
+    border-top: 2px solid #ff3859;
+    width: 70px;
+    display: block;
+    margin-bottom: 5px;
+}

@@ -8,6 +8,23 @@
     background: url(/imagens/bg.jpg) fixed;
     position: relative;
 }
+.bg-footer-start{
+    background-color: rgb(51, 51, 51);
+    color: #ddd;
+}
+.bg-card{
+    background-color:  rgb(109, 109, 109);
+}
+.bg-card i{
+    color: yellow;
+}
+.bg-footer-end{
+    background-color: rgb(109, 109, 109);
+    color: #ddd;
+}
+.icons i:hover{
+    color: rgb(6, 241, 190);
+}
 .btn-orcamento{
     border: 2px solid rgb(219, 217, 217);
     background: none;
@@ -36,4 +53,19 @@
     border-radius: 10px;
     border: 1px solid rgb(49, 49, 49);
     transition: all 0.5s ease-in-out;
+}
+
+/*footer*/
+.bg-footer-start ul{
+    padding: 0;
+}
+.bg-footer-start ul li{
+    list-style: none;
+}
+.bg-footer-start ul li a{
+    color: rgb(196, 196, 196);
+    text-decoration: none;
+}
+.bg-footer-start ul li a:hover{
+    color: rgb(255, 254, 254);
 }
